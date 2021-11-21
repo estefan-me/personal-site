@@ -1,0 +1,83 @@
+.projectContainer {
+    height: 90vh;
+    background-color: #1e1e1e;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    box-sizing: border-box;
+    max-width: 1520px;
+    overflow-x: hidden;
+    padding: 10px;
+    justify-content: center;
+    position: relative;
+    columns: 2;
+}
+
+.projectCardHeader {
+    width: 100%;
+    position: absolute;
+    padding-top: 20px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    top: 0;
+    border: 1px solid #4d4c4c;
+    border-radius: 0.2rem;
+    background: #1a1b18;
+    height: 70px;
+    font-family: "Montserrat", sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.projectLink {
+    position: absolute;
+    display: flex;
+    top: 430px;
+    left: 100px;
+    width: 20px;
+}
+
+.descrText {
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    top: 30px;
+    font-size: large;
+    font-weight: bold;
+    line-height: 1.6;
+    padding: 50px;
+    width: 300px;
+}
+
+.image {
+    position: absolute;
+    left: 420px;
+    top: 30px;
+    width: 360px;
+    border-radius: 1rem;
+    height: 450px;
+}
+
+.title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 70px;
+    position: absolute;
+    top: 30px;
+    left: 100px;
+    font-weight: bold;
+    border: solid 0.1em #1e1e1e;
+    width: fit-content;
+    border-bottom-color: #ffa400;
+}
+
+.projectCard {
+    position: absolute;
+    top: 200px;
+    left: 300px;
+    height: 500px;
+    width: 800px;
+    border-radius: 0.2rem;
+    background-color: #4d4c4c;
+    font-family: "Montserrat", sans-serif;
+}

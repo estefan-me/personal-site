@@ -1,0 +1,88 @@
+.welcomeContainer {
+    height: 90vh;
+    background-color: #1e1e1e;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    box-sizing: border-box;
+    max-width: 1520px;
+    overflow-x: hidden;
+    padding: 10px;
+    /* padding-right: 50px; */
+    columns: 2;
+}
+
+.welcomeTextContainer {
+    font-family: "Montserrat", sans-serif;
+    /* width: 500px; */
+    padding-left: 100px;
+    padding-top: 130px;
+    /* max-width: 500px; */
+}
+
+.welcomeTitleContainer {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+}
+
+.welcomeTitleText {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 80px;
+    flex: 1;
+}
+
+.welcomeTitlePeriod {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    color: #ffa400;
+    font-size: 120px;
+}
+
+.welcomeDescriptionText {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    /* width: 300px; */
+}
+
+.moreAboutMeButton {
+    background-color: #ffa400;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 900;
+    color: white;
+    height: 30px;
+    width: 220px;
+    border-radius: 2rem;
+    transition: all 1s ease;
+}
+
+.moreAboutMeButton:hover {
+    background-color: #c68000;
+}
+
+.aboutNavLink {
+    display: inline-block;
+    padding: 2em;
+    margin: -2em;
+    z-index: 1;
+    position: relative;
+}
+
+.circleImg {
+    height: 360px;
+    width: 600px;
+    padding-top: 150px;
+    padding-left: 60px;
+}

@@ -1,0 +1,41 @@
+.aboutContainer {
+    height: 90vh;
+    background-color: #1b1b1b;
+    color: white;
+    display: flex;
+    box-sizing: border-box;
+    max-width: 1520px;
+    flex-direction: row;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.aboutMeTitleImg {
+    position: absolute;
+    left: -700px;
+    top: 30px;
+    height: 300px;
+    width: 390px;
+    padding: 50px;
+    padding-top: 100px;
+}
+
+.aboutMeDescriptions {
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    top: 70px;
+    left: -200px;
+    width: 800px;
+}
+
+.header {
+    font-weight: bold;
+    border: solid 0.1em #1b1b1b;
+    width: fit-content;
+    border-bottom-color: #ffa400;
+}
+
+.text {
+    max-width: 800px;
+    font-weight: bold;
+}

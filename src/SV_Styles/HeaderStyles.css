@@ -1,0 +1,127 @@
+.gridHeader {
+    top: 0;
+    position: absolute;
+    right: 0;
+    width: 100vw;
+    height: 55px;
+    background: #1b1b1b;
+    display: flex;
+    justify-content: center;
+}
+
+.mainContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    background: #1b1b1b;
+}
+
+.headerButton {
+    border: 2px solid #820d2d;
+    font-size: large;
+    background: none;
+    color: white;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    height: 45px;
+    width: fit-content;
+    cursor: pointer;
+    border-radius: 0.2rem;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 8px;
+    margin-left: 10px;
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Old versions of Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+}
+
+.headerButton:hover {
+    transform: scale(1.05);
+    background: #820d2d;
+    color: white;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.dropButton {
+    cursor: pointer;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    font-size: large;
+    border: 2px solid #820d2d;
+    border-radius: 0.2rem;
+    color: white;
+    padding-top: 10px;
+    width: 220px;
+    height: 31px;
+    margin-top: 8px;
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Old versions of Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.dropButton:hover {
+    background: #820d2d;
+}
+
+.dropDown {
+    color: white;
+    background: #820d2d;
+    border-radius: 0.2rem;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    font-size: medium;
+    transform: translate(-1%, 15%);
+    overflow: hidden;
+    height: 85px;
+    width: 250px;
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Old versions of Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+}
+
+.menuitem {
+    height: fit-content;
+    display: flex;
+    background: #820d2d;
+    border-radius: 0.2rem;
+    width: 200px;
+    color: white;
+    padding: 0.5rem;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+}
+
+.menuitem:hover {
+    background: #424242;
+    cursor: pointer;
+}
